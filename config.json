@@ -1,0 +1,4 @@
+{
+    "bot_token": "Bot token",
+    "mongo_url": "mongo url"
+}
