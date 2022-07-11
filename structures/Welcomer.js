@@ -26,7 +26,7 @@ class Welcomer {
         this.discriminator ??= discriminator
         this.avatar ??= avatar
         this.gif ??= gif
-        this.layer = layer || "https://media.discordapp.net/attachments/735118044145123348/735477847526998077/20200722_181613.png"
+        this.layer = layer || "./assets/layer.png"
         this.blur ??= blur
         this.delay = delay || 50
         this.frame_limit = frame_limit || 30
