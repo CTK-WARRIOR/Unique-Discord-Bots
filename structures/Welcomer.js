@@ -121,7 +121,7 @@ class Welcomer {
         ctx.font = `bold 25px Arial Bold`;
         ctx.fillStyle = '#FFFFFF';
 
-        ctx.fillText(`${this.discriminator}`, 278, 162.5);
+        ctx.fillText(`${this.discriminator}`, 552, 156);
 
         let avatar = await jimp.read(this.avatar);
 
@@ -169,7 +169,7 @@ class Welcomer {
         ctx.font = `bold 25px Arial Bold`;
         ctx.fillStyle = '#FFFFFF';
 
-        ctx.fillText(`${this.discriminator}`, 278, 162.5);
+        ctx.fillText(`${this.discriminator}`, 552, 156);
 
         let avatar = await jimp.read(this.avatar);
 
